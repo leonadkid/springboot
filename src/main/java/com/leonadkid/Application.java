@@ -1,11 +1,13 @@
-package com.example.accessingdatamysql;
+package com.leonadkid;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AccessingDataMysqlApplication {
+public class Application {
     public static void main(String[] args){
-        SpringApplication.run(AccessingDataMysqlApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
+
+

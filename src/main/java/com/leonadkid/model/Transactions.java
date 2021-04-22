@@ -1,13 +1,11 @@
-package com.example.accessingdatamysql;
+package com.leonadkid.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-public class Transaction {
+@Table(name = "Transaction")
+public class Transactions {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer transId;
